@@ -10,16 +10,17 @@ namespace DiffPlex
 {
     
     /// <summary>
-    /// Testing the publishing
-    /// </summary>
-    /// <description>
-    /// ![](angeler_5c6795831b16f52820f887aa.jpeg)
-    /// </description>
-    public interface IMerger
+        /// Testing the publishing
+        /// </summary>
+        /// <description>
+        /// ![](angeler_5c6795831b16f52820f887aa.jpeg)
+        /// </description>
+            public interface IMerger
     {
         
         SideBySideDiffModel GetMergedText(List<string> list);
 
+        
         
         
         SideBySideDiffModel GetMergedText(SideBySideDiffModel model);
