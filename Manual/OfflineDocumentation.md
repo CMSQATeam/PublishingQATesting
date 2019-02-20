@@ -1,16 +1,12 @@
+ 
 
-# Offline documentation
+# Timeline overview 
 
-You can download the Unity Documentation as a zip file for offline use. To download the current version of the Unity Documentation, click the link below.
+# Use the **Timeline Editor window**  to create cut-scenes, cinematics, and game-play sequences by visually arranging tracks and clips linked to **GameObjects** 
 
-[Download: Offline Unity Documentation](../uploads/UnityDocumentation.zip) (Size: less than 300MB)
+ [5c6beeef6cab410504049596](Examples/2D01_5c6beeef6cab410504049596.cs) 
 
-The zip file contains the most up-to-date version of the **Unity Manual** and **Unity Scripting API**.
+  in 
 
+ 
 
-![Unity Manual](../uploads/Main/OfflineDocumentationUserManual.png)
-
-![Unity Scripting API (Scripting Reference)](../uploads/Main/OfflineDocumentationScriptRef.png)
-
-Updated.
-update 2.
