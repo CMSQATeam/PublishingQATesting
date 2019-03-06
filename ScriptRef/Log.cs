@@ -18,6 +18,12 @@ namespace DiffPlex
         {
             // not implemented
         }
+        
+         enum TestEnum
+    {
+        Hyderabad = 5,
+        Banglore = 25
+    }
 
         
         public delegate int TestDelegate(string s);
