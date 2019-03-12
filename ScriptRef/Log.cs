@@ -4,10 +4,14 @@ namespace DiffPlex
 {
     
     /// <summary>
-    /// sirisha
-    /// </summary>
-    public static class Log
+        /// sirisha
+        /// </summary>
+        /// <description>
+        /// image
+        /// </description>
+            public static class Log
     {
+        
         
         
         [Conditional("LOG")]
@@ -16,6 +20,7 @@ namespace DiffPlex
             Debug.WriteLine(string.Format(format, args));
         }
 
+        
         
         
         [Conditional("LOG")]
