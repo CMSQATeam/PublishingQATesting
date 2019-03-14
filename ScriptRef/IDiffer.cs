@@ -4,25 +4,35 @@ using DiffPlex.Model;
 namespace DiffPlex
 {
     /// <summary>
-                                /// Provides methods for generate differences between texts
-                                /// </summary>
-                                /// <description>
-                                /// [5c8609f909f03f2c6040f487](Generics_5c8609f909f03f2c6040f487.cs)
-                                /// </description>
-                                                            public interface IDiffer
+                                                                /// Provides methods for generate differences between texts script1
+                                                                /// </summary>
+                                                                /// <description>
+                                                                /// [5c8a470c0c6ec2070cd6c3f9](script1_5c8a470c0c6ec2070cd6c3f9.cs)
+                                                                /// </description>
+                                                                                                                            public interface IDiffer
     {
         
         /// <summary>
-                /// [5c860a8e09f03f2c6040f719](sanfoundry_5c860a8e09f03f2c6040f719.cs)
-                /// </summary>
-                /// <description>
-                /// dw-code5c860b1409f03f2c6040f976
-                /// </description>
-                        DiffResult CreateLineDiffs(string oldText, string newText, bool ignoreWhitespace);
+                                /// script2
+                                /// </summary>
+                                /// <description>
+                                /// [5c8a47170c6ec2070cd6c468](Script2_5c8a47170c6ec2070cd6c468.cs)
+                                /// </description>
+                                /// <returns>
+                                /// Script3<br>  [5c8a47240c6ec2070cd6c606](Script3_5c8a47240c6ec2070cd6c606.cs)
+                                /// </returns>
+                                                        DiffResult CreateLineDiffs(string oldText, string newText, bool ignoreWhitespace);
         
         
         
+        /// <summary>
+        /// script4
+        /// </summary>
+        /// <description>
+        /// [5c8a47300c6ec2070cd6c65e](script4_5c8a47300c6ec2070cd6c65e.cs)
+        /// </description>
         DiffResult CreateLineDiffs(string oldText, string newText, bool ignoreWhitespace, bool ignoreCase);
+        
         
         
         
@@ -30,7 +40,9 @@ namespace DiffPlex
         
         
         
+        
         DiffResult CreateCharacterDiffs(string oldText, string newText, bool ignoreWhitespace, bool ignoreCase);
+        
         
         
         
@@ -38,11 +50,14 @@ namespace DiffPlex
         
         
         
+        
         DiffResult CreateWordDiffs(string oldText, string newText, bool ignoreWhitespace, bool ignoreCase, char[] separators);
         
         
         
+        
         DiffResult CreateCustomDiffs(string oldText, string newText, bool ignoreWhiteSpace, Func<string, string[]> chunker);
+        
         
         
         
