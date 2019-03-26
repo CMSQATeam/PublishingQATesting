@@ -12,6 +12,7 @@ Unity Manual TOC
 		 - [Leave Feedback](LeaveFeedback.md)
 	 - [publishNode](publishNode.md)
 	 - [InstallingUnity]()
+		 - [wsdfegf](wsdfegf.md)
 		 - [InstallingUnity Overview](InstallingUnity.md)
 		 - [Deploying Unity Offline](DeployingUnityOffline.md)
 
